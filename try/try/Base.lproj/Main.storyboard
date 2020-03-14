@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xaD-aU-hL2">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="try" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="藍色長條拷貝" translatesAutoresizingMaskIntoConstraints="NO" id="fJ6-JU-DUd">
+                                <rect key="frame" x="9" y="167" width="391" height="526"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TqY-sk-ldg">
+                                <rect key="frame" x="125" y="361" width="148" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="轉出轉入公會"/>
+                                <connections>
+                                    <segue destination="LtW-S1-nRC" kind="show" id="20i-2J-1aN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L02-Vu-wvM">
+                                <rect key="frame" x="116" y="556" width="161" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="執照到期更新"/>
+                                <connections>
+                                    <segue destination="e19-4U-Cdu" kind="show" id="asK-sV-3Ux"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="442-O4-daz">
+                                <rect key="frame" x="187" y="263" width="90" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="入會辦法"/>
+                                <connections>
+                                    <segue destination="SUg-DZ-5p8" kind="show" id="Fyq-9B-Xni"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLf-cy-Edi">
+                                <rect key="frame" x="165" y="461" width="134" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="停業歇業規定"/>
+                                <connections>
+                                    <segue destination="rfE-qf-TU8" kind="show" id="tZ3-Hl-nfO"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="trytry" translatesAutoresizingMaskIntoConstraints="NO" id="ZN4-D9-avJ">
+                                <rect key="frame" x="99" y="68" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42446380853652954" green="0.97245079278945923" blue="0.98421508073806763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DgO-dG-yJy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1662.3188405797102" y="-37.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YQP-8J-MNv">
+            <objects>
+                <viewController id="e19-4U-Cdu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eEg-aI-EGc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtE-oE-AoJ">
+                                <rect key="frame" x="24" y="62" width="374" height="634"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">事項：心理師執業執照到期更新／換照
+
+1.檢具文件
+
+原領執業執照正本 + 前六年行政院衛生福利部繼續教育積分證明（從行政院衛生福利部繼續教育積分管理系統下載）+ 臨床心理師證書正、影本（正本驗畢後發還） + 身分證證正反面影本（正本驗畢後發還） + 一吋正面脫帽半身照片二張 + $300 + 在衛生局填寫桃園市醫事人員異動申請書
+
+2.申辦單位
+桃園市政府衛生局醫政課
+
+3.申辦時機
+執業執照有效期間屆滿前六個月內
+
+4.申辦需時:約一個小時
+
+5.注意事項
+心理師執業，應每六年接受下列繼續教育之課程積分達120點以上，其中包括一、專業課程、二、專業品質、三、專業倫理、四、專業法規，其中專業倫理與專業法規之積分數至少要有十五點，還應包括感染管制及性別議題之課程。超過三十點者，頂多計入三十點。
+
+6.相關表單
+一、【桃園市醫事人員異動申請書】
+二、【醫事人員執業登記及繼續教育辦法】</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81568627450980391" green="1" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="uaK-wi-g5A"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Da-qr-Wh7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1uc-pd-Hbx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11.594202898550726" y="-830.70652173913049"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="faY-MA-iCz">
+            <objects>
+                <viewController id="SUg-DZ-5p8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wxE-IT-fkm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IwZ-Zu-u9Z">
+                                <rect key="frame" x="38" y="95" width="347" height="543"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">一、填寫 入會申請書 (請點選左方文字下載)、心理師證書影本及本人2吋照片一張。
+
+1.在桃園地區執業者請加填〝醫事人員異動申請書〞並在已入會處由公會加蓋印章確認。
+2.在其他地區執業者，由公會發給入會證明。
+
+二、繳交入會費2000元及常年會費6000元
+
+新入會員常年會費依入會月份計算：
+1-3月→6000，4-6月→4500，7-9月→3000，10-12月→1500
+
+三、繳費方式：
+
+1.ATM轉帳：繳費後請將收據傳真至公會
+  轉帳郵局：代碼 700 中華郵政桃園成功路郵局 
+  帳號：012106 3151456
+  戶名：桃園市臨床心理師公會-車先蕙
+
+3.現金繳納:請先聯絡總幹事
+
+四、在確定入帳後，總幹事會將入會證明書、醫事人員異動申請書(蓋好公會小官章)及收據郵寄給您</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82634228467941284" green="0.9888802170753479" blue="0.99462944269180298" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Si-xC-Qne"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FbQ-dD-Tiw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58t-sy-Ewj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2568.1159420289855" y="-211.14130434782609"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7rE-4s-7NS">
+            <objects>
+                <viewController id="plv-vs-gJS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kih-4D-iM1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDb-w0-kiA">
+                                <rect key="frame" x="20" y="117" width="374" height="542"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">事項：由其他公會轉入桃園臨床心理師公會繳費事宜
+1.檢具文件
+他會當年度常年會費繳款證明
+2.申辦單位
+桃園縣臨床心理師公會總幹事
+公會電子郵箱：taoyuanpsy@taoyuanpsy.url.tw
+電話：0928-040350週一至五 
+3.申辦時機:加入本公會時
+4.申辦需時:約一至兩天
+5.注意事項
+若備有其他公會當年度繳費證明，即可免繳本公會當年度常年會費，僅需繳交入會費。其他詳細事項請參考本會「公會事務／入會方法」網頁。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.792156862745098" green="1" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ysI-dF-dFI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kgS-4r-ngS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uxF-vR-vm5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-681.15942028985512" y="703.53260869565224"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fJr-ke-Xir">
+            <objects>
+                <viewController id="FeK-fJ-3KN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I5l-dJ-Clx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LO9-jV-Sge">
+                                <rect key="frame" x="20" y="20" width="374" height="676"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">事項：由桃園臨床心理師公會轉出至其他公會
+1.檢具文件
+退會申請書+年度常年會費6000元
+2.申辦單位
+桃園縣臨床心理師公會總幹事
+公會電子郵箱：taoyuanpsy@taoyuanpsy.url.tw
+電話：0928-040350週一至五 
+3.申辦時機:加入本公會時
+4.申辦需時:約一至兩天
+5.注意事項
+必需於本公會繳交當年度常年會費（1/15以前退會則不必）。本公會將開立退會證明並註明繳費狀況，以利會員加入其他公會時免繳當年度常年會費。若涉及到職單位費用補助問題，請先詢問清楚新到職單位對繳費收據上抬頭的要求。另，記得於離職一個月內至衛生局辦理異動。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.792156862745098" green="1" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bf9-nt-bZD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="scY-ek-qOh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFK-xT-rOl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-681.15942028985512" y="1362.2282608695652"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uCQ-hp-r1J">
+            <objects>
+                <viewController id="LtW-S1-nRC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KdM-5c-XsQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="變更" translatesAutoresizingMaskIntoConstraints="NO" id="sLR-qz-1Vl">
+                                <rect key="frame" x="0.0" y="195" width="414" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsr-Br-Nai">
+                                <rect key="frame" x="136" y="189" width="160" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="轉入說明" image="paperplane" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="plv-vs-gJS" kind="show" id="Qei-JB-tLP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJU-Vw-c4l">
+                                <rect key="frame" x="138" y="469" width="158" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="轉出說明" image="paperplane.fill" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FeK-fJ-3KN" kind="show" id="nXl-iU-a7L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.792156862745098" green="1" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aeJ-0g-L6L"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FFM-Gj-UWr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ul2-4T-nqq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11.594202898550726" y="695.38043478260875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8zB-Mv-Dhw">
+            <objects>
+                <viewController id="rfE-qf-TU8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hnX-tX-QDf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="8Eb-Fr-QgZ">
+                                <rect key="frame" x="-103" y="95" width="621" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="停業歇業變更說明" translatesAutoresizingMaskIntoConstraints="NO" id="CTx-X0-Ohn">
+                                <rect key="frame" x="0.0" y="412" width="414" height="351"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.792156862745098" green="1" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="KL7-ZQ-ajj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IsV-dV-6MK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qJZ-rg-AZH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2568.1159420289855" y="469.56521739130437"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="DsM-ug-fUN">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xaD-aU-hL2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TcE-Ng-yFF">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jJ3-km-Qns" kind="relationship" relationship="viewControllers" id="7f6-f0-gvJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJ5-ZN-6qM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-152.17391304347828" y="-37.5"/>
+        </scene>
+        <!--home-->
+        <scene sceneID="Bsv-eN-wpS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jJ3-km-Qns" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="home" image="o.circle" catalog="system" selectedImage="o.circle" id="obU-2R-SOF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MiL-pc-mQP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="oZX-RF-HkQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKg-Dx-OXZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="755.07246376811599" y="-37.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image-1" width="960" height="540"/>
+        <image name="o.circle" catalog="system" width="64" height="60"/>
+        <image name="paperplane" catalog="system" width="64" height="60"/>
+        <image name="paperplane.fill" catalog="system" width="64" height="60"/>
+        <image name="trytry" width="200" height="200"/>
+        <image name="停業歇業變更說明" width="960" height="540"/>
+        <image name="藍色長條拷貝" width="945" height="945"/>
+        <image name="變更" width="960" height="540"/>
+    </resources>
+</document>
